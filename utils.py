@@ -31,4 +31,3 @@ def denormalize_img(x):
     pil_image = Image.fromarray(np.uint8(x * 255))
     return pil_image
 
-
