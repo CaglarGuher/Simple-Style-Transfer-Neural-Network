@@ -1,3 +1,3 @@
 Style-Transfer-Neural-Network 
 
--Style Transfer method with each frame of the video 
+Style Transfer method is used with each frame of the video and merged together
