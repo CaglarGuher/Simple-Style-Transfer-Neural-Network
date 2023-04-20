@@ -9,7 +9,8 @@ The project uses a pretrained VGG16 network for style transfer. The input video 
 ## Code Example
 
 
-Here is an example of the `train_image` function:
+Here is an example of the `train_image` function: 
+
 
 ```python
 import torch
