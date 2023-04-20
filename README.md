@@ -28,7 +28,7 @@ def train_image(Original_image, Style_image):
     
 ```
 
-<video src="/blob/master/result.mp4" width="500" height="500" controls preload></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
 
   ## Dependencies
 
