@@ -33,17 +33,17 @@ def train_image(Original_image, Style_image):
 
 The following libraries are required to run this project:
 
- torch
- 
- torchvision
+ * torch
 
- PIL (Pillow)
+ * torchvision
 
- numpy
+ * PIL (Pillow)
 
- matplotlib
+ * numpy
 
- cv2 (OpenCV)
+ * matplotlib
+
+ * cv2 (OpenCV)
 
 
 
