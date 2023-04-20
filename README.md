@@ -1,29 +1,43 @@
-Video Style Transfer
-This project demonstrates a simple implementation of style transfer on videos using a pre-trained Style Transfer Network. The network is applied to each frame of the input video, generating a new video with the desired artistic style.
+# Style Transfer Network for Video
 
-Overview
-In this project, we use a style transfer network to transform the appearance of a video. The process involves capturing the video frame by frame, applying the style transfer using the train_image function, and then merging the stylized frames back together to create the final output video.
+This project demonstrates the use of a style transfer network to apply a given style to a video. The video is processed frame by frame, and the style is transferred using the `train_image` function. The processed frames are then merged back together to create the final stylized video.
 
-Style Transfer Network
-Style transfer is a technique that allows the artistic style of one image to be combined with the content of another image. A pre-trained neural network is used to extract and transfer the style features from a given style image to the content of the input frames.
+## Overview
 
-Processing Video Frames
-The input video is read frame by frame using the OpenCV library. Each frame is then converted from BGR to RGB format and passed to the train_image function, which applies the desired style to the frame. After processing, the frame is converted back to BGR format.
+The project uses a pretrained VGG16 network for style transfer. The input video is captured frame by frame, and each frame is converted to a PIL image. The style is then transferred to each frame using the `train_image` function. Finally, the processed frames are merged back together to create the final stylized video.
 
-Merging Stylized Frames
-Once all the frames have been processed and stylized, they are merged back together into a video with the same frame rate as the original video. The final stylized video is saved as an MP4 file.
+## Code Example
 
-Usage
-Place your input video (e.g., test_clip.mp4) and style image (e.g., gogh.jpg) in the project directory.
+Here is an example of the `train_image` function:
 
-Edit the style_image and video variables in the script to match the filenames of your chosen style image and input video.
+```python
+import torch
+import torch.nn as nn
+from torchvision import models, transforms
+from PIL import Image
+import numpy as np
+import matplotlib.pyplot as plt
+import cv2
+from utils import get_image, get_gram, denormalize_img
 
-Run the script. The output video (e.g., result.mp4) will be saved in the project directory.
+def train_image(Original_image, Style_image):
+    # ... (rest of the function code)
+    final_frame = Resulted_image.detach().cpu().squeeze()
+    final_frame = denormalize_img(final_frame)
+    return final_frame
 
-Dependencies
-Python 3.6+
-OpenCV
-PyTorch
-PIL (Python Imaging Library)
-Conclusion
-This project demonstrates a simple approach to applying style transfer to videos using a pre-trained style transfer network. By processing each frame individually and merging the stylized frames back together, we can create an artistic version of the original video.
+
+  ## Dependencies
+
+The following libraries are required to run this project:
+
+-torch
+-torchvision
+-PIL (Pillow)
+-numpy
+-matplotlib
+-cv2 (OpenCV)
+ ## Usage
+Clone the repository and install the required dependencies.
+Provide an input video and a style image.
+Run the main script to apply the style to the input video and create the final stylized video.
