@@ -25,8 +25,12 @@ def train_image(Original_image, Style_image):
     final_frame = Resulted_image.detach().cpu().squeeze()
     final_frame = denormalize_img(final_frame)
     return final_frame
-    
-```
+```    
+
+
+
+
+
 
 
   ## Dependencies
@@ -44,7 +48,6 @@ The following libraries are required to run this project:
  * matplotlib
 
  * cv2 (OpenCV)
-
 
 
  ## Usage
