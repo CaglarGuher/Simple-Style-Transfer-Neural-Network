@@ -33,13 +33,17 @@ def train_image(Original_image, Style_image):
 
 The following libraries are required to run this project:
 
--torch
--torchvision
--PIL (Pillow)
--numpy
--matplotlib
--cv2 (OpenCV)
+ ### torch
+ ### torchvision
+ ### PIL (Pillow)
+ ### numpy
+ ### matplotlib
+ ### cv2 (OpenCV)
+
+
+
  ## Usage
+ 
 Clone the repository and install the required dependencies.
 Provide an input video and a style image.
 Run the main script to apply the style to the input video and create the final stylized video.
