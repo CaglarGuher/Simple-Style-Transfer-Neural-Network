@@ -28,7 +28,7 @@ def train_image(Original_image, Style_image):
     
 ```
 
-<video src="result.mp4" width="500" height="500" controls preload></video>
+<video src="blob/master/result.mp4" width="500" height="500" controls preload></video>
 
   ## Dependencies
 
