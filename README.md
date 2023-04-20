@@ -33,19 +33,6 @@ def train_image(Original_image, Style_image):
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1wkPMUZ9vX4?start=1" title="YouTube video player" frameborder="0" </iframe>
-
-
-
-
-
-
-
-
-
-
-
-
   ## Dependencies
 
 The following libraries are required to run this project:
