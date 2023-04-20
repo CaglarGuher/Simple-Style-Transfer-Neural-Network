@@ -28,6 +28,7 @@ def train_image(Original_image, Style_image):
     
 ```
 
+<video src="result.mp4" width="500" height="500" controls preload></video>
 
   ## Dependencies
 
@@ -45,7 +46,6 @@ The following libraries are required to run this project:
 
  * cv2 (OpenCV)
 
-<video src="result.mp4" width="500" height="500" controls preload></video>
 
  ## Usage
 
