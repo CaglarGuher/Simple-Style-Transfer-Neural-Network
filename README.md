@@ -28,7 +28,7 @@ def train_image(Original_image, Style_image):
 ```    
 
 
-[![NAME](https://img.youtube.com/vi/video_id/0.jpg)](video.html)
+[![NAME](https://www.youtube.com/embed/1wkPMUZ9vX4?start=1)(video.html)
 
 
 
