@@ -25,7 +25,8 @@ def train_image(Original_image, Style_image):
     final_frame = Resulted_image.detach().cpu().squeeze()
     final_frame = denormalize_img(final_frame)
     return final_frame
-    
+```    
+
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=1wkPMUZ9vX4" frameborder="0" allowfullscreen></iframe>
 
   ## Dependencies
