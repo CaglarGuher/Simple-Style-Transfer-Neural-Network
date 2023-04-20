@@ -27,8 +27,7 @@ def train_image(Original_image, Style_image):
     return final_frame
     
 ```
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="result.mp4" frameborder="0" allowfullscreen></iframe>
 
   ## Dependencies
 
